@@ -16,5 +16,9 @@ describe('string calculator tdd', () => {
         expect(stringCalculator.add("1,2")).toBe(3);
 
     });
+    test("for '1,2,3' return 6",()=>{
+        expect(stringCalculator.add("1,2,3")).toBe(6);
+
+    });
 
 });
